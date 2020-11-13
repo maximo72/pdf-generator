@@ -88,7 +88,7 @@ public class PDFPrinterWebView extends WebViewClient {
         PrintAttributes attributes = new PrintAttributes.Builder()
             .setMediaSize(mediaSize)
             .setResolution(new PrintAttributes.Resolution("pdf", "pdf", 600, 600))
-            .setMinMargins(new PrintAttributes.Margins(10,10,10,5)).build();
+            .setMinMargins(new PrintAttributes.Margins(0,0,0,0)).build();
             //.setMinMargins(PrintAttributes.Margins.NO_MARGINS).build();
 
 
